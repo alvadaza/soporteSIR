@@ -13,25 +13,26 @@ export const categorias: Categoria[] = [
   {
     id: 'sir',
     nombre: 'Plantillas SIR',
-    descripcion: 'Soporte Sistema Registral',
+    descripcion: 'Soporte Sistema Misional',
     icono: 'FileText',
     color: '#6366f1',
     count: 11,
   },
   {
-    id: 'directorio',
-    nombre: 'Directorio',
-    descripcion: 'Usuarios y traslados',
-    icono: 'Users',
-    color: '#10b981',
-    count: 0,
-  },
-  {
     id: 'correo',
-    nombre: 'Correo',
-    descripcion: 'Plantillas para emails',
+    nombre: 'Plantillas de Correo',
+    descripcion: 'Plantillas para responder emails',
     icono: 'Mail',
     color: '#f59e0b',
     count: 0,
   },
+  {
+    id: 'directorio',
+    nombre: 'Directorio',
+    descripcion: 'directorio de usuarios SNR',
+    icono: 'Users',
+    color: '#10b981',
+    count: 0,
+  },
+  
 ];

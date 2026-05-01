@@ -63,7 +63,7 @@ export default function PlantillasCA() {
 
   try {
     await fetch(
-      "https://script.google.com/macros/s/AKfycbyA7fO-rtGBBQcPRG7sjIvhxHOkGzBFtJqsrfQNN9ewM1OCtWG4FR-_Ii0unjd0GmW3ng/exec",
+      "https://script.google.com/macros/s/AKfycbzTTCfoj2XK_8UsQcMAzVYNCCikTzLI7ft-KMB6Jkl-dpFw_E7EnORerdSkm5UGcNyxuQ/exec",
       {
         method: "POST",
         mode: "no-cors", // 🔥 CLAVE

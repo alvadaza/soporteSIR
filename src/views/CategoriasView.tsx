@@ -2,10 +2,12 @@
 import { useState } from "react";
 import { categorias } from "../data/categoriasData";
 import PlantillasCA from "./PlantillasCA";
+import PlantillasCorreo from "./PlantillasCorreo";
+import Directorio from "./Directorio";
 import "../style/CategoriasView.css";
 
 
-type Vista = "inicio" | "plantillas";
+type Vista = "inicio" | "plantillas" | "plantillascorreo"  | "directorio";;
 
 export default function CategoriasView() {
   const [vista, setVista] = useState<Vista>("inicio");
@@ -14,6 +16,12 @@ export default function CategoriasView() {
     // puedes manejar más vistas aquí según el id
     if (cat.id === "sir") {
       setVista("plantillas");
+    }
+    if (cat.id === "correo") {
+      setVista("plantillascorreo");
+    }
+    if (cat.id === "directorio") {
+      setVista("directorio");
     }
   };
 
@@ -60,7 +68,7 @@ export default function CategoriasView() {
           <div className="hero">
             <h1>Soporte SIR</h1>
             <img
-              src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
+              src="https://res.cloudinary.com/dthi7ietr/image/upload/v1777605897/hero_mq4xab.png"
               alt="soporte"
             />
           </div>
@@ -76,6 +84,32 @@ export default function CategoriasView() {
             </button>
 
             <PlantillasCA />
+          </>
+        )}
+
+        {vista === "plantillascorreo" && (
+          <>
+            <button
+              className="back"
+              onClick={() => setVista("inicio")}
+            >
+              ← Volver
+            </button>
+
+            <PlantillasCorreo />
+          </>
+        )}
+
+        {vista === "directorio" && (
+          <>
+            <button
+              className="back"
+              onClick={() => setVista("inicio")}
+            >
+              ← Volver
+            </button>
+
+            <Directorio />
           </>
         )}
       </div>
