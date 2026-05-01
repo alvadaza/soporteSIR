@@ -1,0 +1,54 @@
+[
+  {
+    "TIPO": "Notificacion Ticket",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud quedó registrada con el número de ticket XXXX y está siendo tramitada por Giovani Martinez. Tan pronto contemos con una respuesta a su solicitud nos estaremos contactando con usted.\n \nQuedamos atentos a sus comentarios.\n \nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Escalar a otras mesas",
+    "CONTENIDO": "Cordial saludo:\n\nSu incidente ha sido asignado al grupo Soporte Técnico Mesa de Ayuda para darle una pronta y oportuna solución.\n\nRecuerde que toda solicitud en cuanto a temas ofimáticos las puede solicitar directamente por el correo soportetecnico@supernotariado.gov.co \n \nQuedamos atentos a sus comentarios.\n \nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Solucion Ticket",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud registrada con el número de ticket XXXX fue solucionada exitosamente.\n\nSolución: ....\n\nAgradecemos realizar las pruebas pertinentes dentro de las siguientes 24 horas para confirmar la operatividad. En caso de continuar presentándose la incidencia comuníquese nuevamente con la Mesa de Ayuda SIR para brindarle soporte adicional, de lo contrario se procederá a dar cierre al caso.\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Solicitar num de contacto",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que para la atención oportuna de su solicitud es necesario que nos suministre la dirección IP y un número de contacto móvil para lograr la comunicación con usted.\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Creación de usuario",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que para poder continuar con la atención solicitamos que por favor nos envíe la siguiente información:\n\n* Oficio solicitando la creación del usuario, firmado por el registrador.\n* Formato de Administración de usuarios debidamente diligenciado y firmado. Ver adjunto.\n* Resolución de nombramiento del registrador o funcionario.\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Entrega creación usuario",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud para “creación usuario SIR” registrada con el número de servicio XXXX fue solucionada exitosamente.\n\nLas credenciales de acceso son:\nUsuario: “Usuario”\nContraseña: “Temporal19*”\n\nRecuerde: al ingresar a SIR, el sistema, por seguridad le solicitará el cambio de contraseña, la cual debe tener la siguiente estructura:\n* Mínimo ocho (8) caracteres.\n* Contener caracteres entre mayúsculas y minúsculas\n* Tener algún carácter especial (* , + - @).\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Traslado de usuario",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que para poder continuar con el requerimiento de traslado de usuario SIR solicitamos que por favor nos envíe la siguiente información:\n\n* Oficio solicitando el traslado donde se especifique la ORIP de origen y la ORIP de destino.\n* Formato de Administración de usuarios debidamente diligenciado y firmado. Ver adjunto.\n* Resolución o planilla de viáticos.\n\nEs de aclarar que estos documentos son indispensables para cualquier trámite de traslado y deben ser adjuntados por todo funcionario de la SNR, además de estar claramente expuesto el requerimiento y los datos de las ORIP involucradas en el proceso deseado.\n\nPor otro lado, es necesario que el usuario no tenga turnos pendientes, no cuente con configuración de recibos o estaciones compartidas, no debe tener roles asignados (ya que el registrador los elimina).\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Caida del sistema",
+    "CONTENIDO": "Cordial saludo:\n\nDe acuerdo con su comunicación le informamos que el aplicativo SIR actualmente está presentando una falla, la cual ya está siendo gestionado por el área encargada con el número de Ticket XXXX, tan pronto se nos notifique cualquier novedad se la indicaremos oportunamente por este medio.\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Cierre sin evidencias",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que no se ha recibido respuesta frente a la solución del ticket XXXX, razón por la cual se procederá con el cierre del caso.\n\nEn caso de presentar nuevamente fallas sobre el servicio recuerde comunicarse con la mesa de ayuda funcional para realizar la atención correspondiente.\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Cierre con evidencias",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que no se ha recibido respuesta frente a la solución del ticket XXXX, sin embargo, al realizar las validaciones correspondientes se evidencia en la plataforma SIR que el turno avanzo, razón por la cual se procederá con la solución al caso.\n<Adjuntar imagen>\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Sin comunicación",
+    "CONTENIDO": "Cordial saludo:\n\nEn atención a su solicitud le informamos que hemos intentado comunicarnos con usted sin éxito al número de teléfono XXXX, solicitamos que nos informe un horario de disponibilidad para ayudarle con la falla generada.\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Solución primer contacto",
+    "CONTENIDO": "Cordial saludo:\n\nEn atención a su comunicación le informamos que su solicitud fue atendida y solucionada con el número de ticket \"XXXX\", por el agente Giovani Martinez.\n\nQuedamos atentos a sus comentarios.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  },
+  {
+    "TIPO": "Area especializada",
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud quedó registrada con el número de ticket XXXXX y está siendo validada en el momento por el área especializada. Tan pronto contemos con una respuesta a su solicitud nos estaremos contactando con usted.\n\nEsperamos poder atenderle en otra oportunidad.\n\nLe deseamos un feliz día y gracias por utilizar el servicio de la mesa de ayuda SIR."
+  }
+]

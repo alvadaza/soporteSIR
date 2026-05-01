@@ -1,0 +1,46 @@
+[
+  {
+    "TIPO": "Bloqueo Calificación",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX indica que al tratar de tomar el turno XXXXXX en la fase calificación se genera el error \"para la matricula XXXXX el usuario no es dueño del bloqueo\", se adjunta evidencia del error.\n\nAl validar lo folios asociados no se evidencian turnos anteriores pendientes en tramite de calificación y el bloqueo lo tiene otro usuario, el turno no ha sido restituido ni reasignado.\n\nTurno: XXXXXXX\nFolios: XXXXXXX"
+  },
+  {
+    "TIPO": "Falla firma registro (fallo en el servicio)",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX indica que al tratar de avanzar el turno XXXXXX en la fase Firmar Registro se genera el error \"Fallo en el servicio para hacer definitivos los datos temporales\", se adjunta evidencia del error.\n\nAl validar los folios asociados se evidencia la calificación realizada pero al tratar de avanzar el turno persiste el error.\n\nTurno: XXXXXXX\nFoilios: XXXXXXX"
+  },
+  {
+    "TIPO": "Falla revisión y análisis",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX indica que al tratar de avanzar el turno XXXXXX desde la fase Revisión y Análisis a la fase Actuaciones Administrativas se genera el error \"existen cambios temporales creados con el turno\", se adjunta evidencia del error.\n\nAl validar los folios asociados no se evidencia información en estado temporal.\n\nTurno: XXXXXXX\nFolios: XXXXXXX"
+  },
+  {
+    "TIPO": "Falla ejecutar correccioón simple",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX indica que al tratar de tomar el turno XXXXXX en la fase Ejecutar Corrección Simple se genera el error \"el folio XXXXX tiene cambios temporales creados por el usuario\", se adjunta evidencia del error.\n\nAl validar los folios asocaidos no se evidencia información en estado temporal.\n\nTurno: XXXXXXX\nFolios: XXXXXXX"
+  },
+  {
+    "TIPO": "Falla revisar y aprobar",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX indica que al tratar de avaznzar el turno XXXXXX en la fase Revisar y Aprobar se genera el error \"fallo en el servicio para hacer definitivos los datos temporales\", se adjunta evidencia del error.\n\nAl validar los folios asociados se evidencia la corrección realizada y las salvedades creadas con el turno, peros al tratar de avanzarlo persiste el error.\n\nTurno: XXXXXXX\nFolios: XXXXXXX"
+  },
+  {
+    "TIPO": "Falla al reabrir folio",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX indica que al tratar de reabrir el folio XXXXX en las pantallas administrativas de SIR se genera el error \"fallo en el servicio para hacer definitivos los datos temporales\", se adjunta evidencia del error."
+  },
+  {
+    "TIPO": "Creación de usuario SIR",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX solicita la creación del usuario SIR para el funcionario XXXXX, se adjunta documentación.\n\nNombre: XXXXXXX\nDocumento: XXXXXXX"
+  },
+  {
+    "TIPO": "Traslado de usuario SIR",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX solicita el traslado del usuario SIR XXXXX, se adjunta documentación.\n\nUsuario SIR: XXXXX\nORIP origen: XXXXX\nORIP destino: XXXXX"
+  },
+  {
+    "TIPO": "Traslado de firma SIR",
+    "CONTENIDO": "El funcionario XXXXXX solicita el traslado de la firma digital SIR XXXXX, se adjunta documentación.\n\nNombre: XXXXX\nUsuario SIR: XXXXX\nORIP origen: XXXXX\nORIP destino: XXXXX"
+  },
+  {
+    "TIPO": "Falla certificados exentos",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXXX indica que al radicar certificados exentos no se genera la barra de descargas.\n\nSe toma el equipo XXX.XXX.XXX.XXX en acceso remoto con autorización del funcionario, se borra cache DNS, se borra cache y certificados de Java, se restablece navegador, se configura navegador EDGE."
+  },
+  {
+    "TIPO": "Falla al ingresar a SIR (no inicia / no carga)",
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXXX indica que al ingresar a SIR no carga correctamente, no se puede visualizar turnos ni folios o no puede escribir dentro del aplicativo.\n\nSe toma el equipo XXX.XXX.XXX.XXX en acceso remoto con autorización del funcionario, se borra cache DNS, se borra cache y certificados de Java, se restablece navegador, se configura navegador EDGE.\n\nSe realizon pruebas de ingreso con el funcionario y se confirma la solución de la falla reportada."
+  }
+]

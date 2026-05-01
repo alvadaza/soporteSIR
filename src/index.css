@@ -1,0 +1,42 @@
+/* ================== VARIABLES CSS ================== */
+:root {
+  --bg-body: #0a0a0a;
+  --bg-header: #111113;
+  --bg-sidebar: #17171a;
+  --bg-card: #1f1f23;
+  --bg-main: #141417;
+
+  --border-color: #2a2a2f;
+  --text-primary: #f1f1f3;
+  --text-secondary: #a3a3a8;
+  --text-muted: #71717a;
+
+  --color-primary: #6366f1;
+  --color-sir: #6366f1;
+  --color-directorio: #10b981;
+  --color-correo: #f59e0b;
+}
+
+/* ================== ESTILOS GENERALES ================== */
+body {
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+}
+
+.category-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  border-color: #52525b;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.category-card.active {
+  border-color: var(--color-primary);
+  background-color: #27272a;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
