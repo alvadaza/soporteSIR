@@ -4,10 +4,11 @@ import { categorias } from "../data/categoriasData";
 import PlantillasCA from "./PlantillasCA";
 import PlantillasCorreo from "./PlantillasCorreo";
 import Directorio from "./Directorio";
+import PlantillasCaErrores from "./PlantillasCaErrores";
 import "../style/CategoriasView.css";
 
 
-type Vista = "inicio" | "plantillas" | "plantillascorreo"  | "directorio";;
+type Vista = "inicio" | "plantillas" | "plantillascorreo"  | "plantillascaerrores" | "directorio";
 
 export default function CategoriasView() {
   const [vista, setVista] = useState<Vista>("inicio");
@@ -19,6 +20,9 @@ export default function CategoriasView() {
     }
     if (cat.id === "correo") {
       setVista("plantillascorreo");
+    }
+    if (cat.id === "caerrores") {
+      setVista("plantillascaerrores");
     }
     if (cat.id === "directorio") {
       setVista("directorio");
@@ -110,6 +114,19 @@ export default function CategoriasView() {
             </button>
 
             <Directorio />
+          </>
+        )}
+
+        {vista === "plantillascaerrores" && (
+          <>
+            <button
+              className="back"
+              onClick={() => setVista("inicio")}
+            >
+              ← Volver
+            </button>
+
+            <PlantillasCaErrores />
           </>
         )}
       </div>

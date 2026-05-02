@@ -109,14 +109,6 @@ export default function PlantillasCA() {
 
         <button onClick={copiar}>Copiar</button>
 
-        <h2>Validaciones</h2>
-
-        <textarea
-          placeholder="Escribe aquí las validaciones..."
-          value={validaciones}
-          onChange={(e) => setValidaciones(e.target.value)}
-        />
-
         <div className="form">
           <input
             type="text"

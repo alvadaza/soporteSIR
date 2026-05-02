@@ -19,6 +19,14 @@ export const categorias: Categoria[] = [
     count: 11,
   },
   {
+    id: 'caerrores',
+    nombre: 'Plantillas de Errores',
+    descripcion: 'Plantillas para responder errores comunes',
+    icono: 'AlertTriangle',
+    color: '#ef4444',
+    count: 0,
+  },
+    {
     id: 'correo',
     nombre: 'Plantillas de Correo',
     descripcion: 'Plantillas para responder emails',

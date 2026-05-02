@@ -4,6 +4,7 @@ import CategoriasView from "./views/CategoriasView";
 import PlantillasCA from "./views/PlantillasCA";
 import PlantillasCorreo from "./views/PlantillasCorreo";
 import Directorio from "./views/Directorio";
+import PlantillasCaErrores from "./views/PlantillasCaErrores";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/plantillas" element={<PlantillasCA />} />
         <Route path="/plantillascorreo" element={<PlantillasCorreo />} />
         <Route path="/directorio" element={<Directorio />} />
+        <Route path="/plantillascaerrores" element={<PlantillasCaErrores />} />
       </Routes>
     </BrowserRouter>
   );

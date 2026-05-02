@@ -144,8 +144,7 @@ button:hover {
 /* TEXTAREA */
 textarea {
   width: 100%;
-  min-height: 120px;
-  height: auto;
+  min-height: 250px;
   overflow: hidden;
   resize: none;
   background: var(--input);
@@ -174,4 +173,60 @@ textarea:focus {
   .contenido {
     width: 100%;
   }
+}
+.preview-html {
+  margin-top: 20px;
+  padding: 20px;
+  background: #020617;
+  border-radius: 12px;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.img-contenido {
+  max-width: 100%;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+/* ITEM ACTIVO */
+.item.active {
+  background: var(--primary);
+  color: #000;
+  font-weight: bold;
+}
+
+/* TITULO */
+.contenido h2 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+/* BOTÓN COPY */
+.contenido button {
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+/* BUSCADOR */
+.buscador {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--input);
+  color: var(--text);
+}
+
+/* SIN RESULTADOS */
+.sin-resultados {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* ACTIVO */
+.item.active {
+  background: var(--primary);
+  color: #000;
+  font-weight: bold;
 }

@@ -1,5 +1,5 @@
 // src/views/PlantillasCorreo.tsx
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import data from "../data/plantillas_correo.json";
 import "../style/PlantillasCA.css";
 
@@ -11,11 +11,17 @@ interface Plantilla {
 export default function PlantillasCorreo() {
   const [tipo, setTipo] = useState<string>("");
   const [contenido, setContenido] = useState<string>("");
-
+const textareaRef = useRef<HTMLTextAreaElement>(null);
   const tiposUnicos: string[] = [
     ...new Set((data as Plantilla[]).map((d) => d.TIPO)),
   ];
-
+useEffect(() => {
+  const el = textareaRef.current;
+  if (el) {
+    el.style.height = "auto";
+    el.style.height = el.scrollHeight + "px";
+  }
+}, [contenido]);
   // 🔥 igual que en CA
   const handleTipoChange = (tipoSeleccionado: string) => {
     setTipo(tipoSeleccionado);
@@ -30,6 +36,8 @@ export default function PlantillasCorreo() {
   const copiar = () => {
     navigator.clipboard.writeText(contenido);
   };
+
+  
 
   return (
     <div className="ca-container">
@@ -59,11 +67,7 @@ export default function PlantillasCorreo() {
         value={contenido}
         readOnly
         rows={3}
-        onInput={(e) => {
-         const target = e.target as HTMLTextAreaElement;
-        target.style.height = "auto";
-        target.style.height = target.scrollHeight + "px";
-     }}
+        ref={textareaRef}
     />
 
         <button onClick={copiar}>
