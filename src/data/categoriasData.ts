@@ -34,6 +34,7 @@ export const categorias: Categoria[] = [
     color: '#f59e0b',
     count: 0,
   },
+  
   {
     id: 'directorio',
     nombre: 'Directorio',
