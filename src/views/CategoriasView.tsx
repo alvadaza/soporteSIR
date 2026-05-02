@@ -5,10 +5,11 @@ import PlantillasCA from "./PlantillasCA";
 import PlantillasCorreo from "./PlantillasCorreo";
 import Directorio from "./Directorio";
 import PlantillasCaErrores from "./PlantillasCaErrores";
+import GaleriaImagenes from "./GaleriaImagenes";
 import "../style/CategoriasView.css";
 
 
-type Vista = "inicio" | "plantillas" | "plantillascorreo"  | "plantillascaerrores" | "directorio";
+type Vista = "inicio" | "plantillas" | "plantillascorreo"  | "plantillascaerrores" | "directorio" | "imagenes";
 
 export default function CategoriasView() {
   const [vista, setVista] = useState<Vista>("inicio");
@@ -26,6 +27,9 @@ export default function CategoriasView() {
     }
     if (cat.id === "directorio") {
       setVista("directorio");
+    }
+    if (cat.id === "imagenes") {
+      setVista("imagenes");
     }
   };
 
@@ -57,10 +61,6 @@ export default function CategoriasView() {
                   <p>{cat.descripcion}</p>
                 </div>
               </div>
-
-              <span className="count">
-                {cat.count} items
-              </span>
             </div>
           ))}
         </div>
@@ -127,6 +127,19 @@ export default function CategoriasView() {
             </button>
 
             <PlantillasCaErrores />
+          </>
+        )}
+
+        {vista === "imagenes" && (
+          <>
+            <button
+              className="back"
+              onClick={() => setVista("inicio")}
+            >
+              ← Volver
+            </button>
+
+            <GaleriaImagenes />
           </>
         )}
       </div>

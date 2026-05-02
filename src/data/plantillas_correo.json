@@ -43,7 +43,7 @@
   },
   {
     "TIPO": "11- Entrega de creación de usuario",
-    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud para “creación usuario SIR” registrada con el número de servicio XXXX fue solucionada exitosamente.\n\nLas credenciales de acceso son:\n\n *  Usuario: “Usuario”\n\nPueden realizar el cambio de contraseña en el siguiente link:\n\n https://accesos.supernotariado.gov.co/sigma/app/\n\nIngresar usuario y contraseña del correo:\n\n[IMAGEN 1]\n\nAl lado izquierdo presione las 3 líneas y seleccione “Cambiar Mi Contraseña”, luego de clic en el botón “Cambiar Mi Contraseña”\n\n[IMAGEN 2]\n\nA continuación se desplegará un formulario en donde podrá realizar el cambio de su contraseña, a medida que esté digitando se podrá ver que esta cumple con los niveles de seguridad requeridos. \n\n[IMAGEN 3]\n\nNota: Esta nueva contraseña aplica para SIR, SISG y CORREO."
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud para “creación usuario SIR” registrada con el número de servicio XXXX fue solucionada exitosamente.\nLas credenciales de acceso son:\n *  Usuario: “Usuario”\nPueden realizar el cambio de contraseña en el siguiente link:\n https://accesos.supernotariado.gov.co/sigma/app/\nIngresar usuario y contraseña del correo:\n[IMAGEN 1]\n\nAl lado izquierdo presione las 3 líneas y seleccione “Cambiar Mi Contraseña”, luego de clic en el botón “Cambiar Mi Contraseña”\n[IMAGEN 2]\n\nA continuación se desplegará un formulario en donde podrá realizar el cambio de su contraseña, a medida que esté digitando se podrá ver que esta cumple con los niveles de seguridad requeridos. \n[IMAGEN 3]\n\nNota: Esta nueva contraseña aplica para SIR, SISG y CORREO."
 
   },
   {
@@ -56,7 +56,7 @@
 },
   {
     "TIPO": "14- Caida del sistema",
-    "CONTENIDO": "Le informamos que se han realizado las validaciones correspondientes y se ha solucionado la novedad de acceso al aplicativo SIR. Le solicitamos amablemente cerrar el navegador e intentar ingresar nuevamente.\n\nNota: Si al intentar acceder se muestra el siguiente mensaje, por favor seguir unas cortas indicaciones que encontrará en el manual adjunto.\n\n[IMAGEN]\n\nSi el inconveniente persiste, por favor informarnos para brindarle asistencia.\n\n<se adjunta manual>"
+    "CONTENIDO": "Le informamos que se han realizado las validaciones correspondientes y se ha solucionado la novedad de acceso al aplicativo SIR. Le solicitamos amablemente cerrar el navegador e intentar ingresar nuevamente.\n\nNota: Si al intentar acceder se muestra el siguiente mensaje, por favor seguir unas cortas indicaciones que encontrará en el manual adjunto.\n\n[IMAGEN 4]\n\nSi el inconveniente persiste, por favor informarnos para brindarle asistencia.\n\n<se adjunta manual>"
   },
 {
  "TIPO": "15- Escalamiento a N3 por problemas de CA",

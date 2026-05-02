@@ -113,7 +113,19 @@
 },
 {
 "TIPO": "El usuario no es el dueño del bloqueo de la matrícula",
-"CONTENIDO":"El (La) funcionario(a) XXXX de la Orip XXXX remite correo indicando que el turno XXXX asociado al folio XXXXX al momento de tomar el turno presenta el siguiente mensaje “El usuario no es el dueño del bloqueo de la matrícula”. Se adjunta imagen. Se procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas se evidencia que el turno XXXX está en la fase de calificación en la estación XXXX, el folio asociado XXCXX no tiene anotaciones en temporal, tiene el mismo turno en trámite, está bloqueado por usuario XXXX y por el mismo turno."
+"CONTENIDO":"El (La) funcionario(a) XXXX de la Orip XXXX remite correo indicando que el turno XXXX asociado al folio XXXXX al momento de tomar el turno presenta el siguiente mensaje “El usuario no es el dueño del bloqueo de la matrícula”. Se adjunta imagen.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas se evidencia que el turno XXXX está en la fase de calificación en la estación XXXX, el folio asociado XXCXX no tiene anotaciones en temporal, tiene el mismo turno en trámite, está bloqueado por usuario XXXX y por el mismo turno."
+},
+{
+"TIPO": "No se pudieron hacer definitivos los folios: Fallo en el servicio de obtención de deltas de folios asociados al turno: El usuario no es dueño del bloqueo del folio XXXX. El turno asociado a la matrícula es XXXX",
+"CONTENIDO":"El (La) funcionario(a) XXXX de la Orip XXXX informando que presenta inconvenientes para avanzar el turno XXXX asociado a los folios XXXX genera el siguiente mensaje “No se pudieron hacer definitivos los folios: Fallo en el servicio de obtención de deltas de folios asociados al turno: El usuario no es dueño del bloqueo del folio XXX. El turno asociado a la matrícula es XXXX”. Se adjunta imagen.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas se evidencia que el turno XXX están en la fase firma, el folio asociado XXXX tiene datos temporales, tiene el mismo turno en trámite, está bloqueado por el usuario XXX y por el mismo turno."
+},
+{
+"TIPO": "Fallo en el servicio de segregar folio: ORA-06512:” AUDITORIA_SIR.TRG_AUDITORIA_SOLICITUD_FOLIO",
+"CONTENIDO":"El (La) funcionario(a) XXXX de la Orip XXXX remite correo indicando que el turno XXX asociado al folio XXX al intentar realizar segregación del folio presenta el siguiente mensaje “Fallo en el servicio de segregar folio: ORA-06512:” AUDITORIA_SIR.TRG_AUDITORIA_SOLICITUD_FOLIO”. Se adjuntan imagen.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes.\n\nVALIDACIONES\n\nSe valida por pantallas administrativas se evidencia que el turno XXXX está en la fase calificación, ha pasado por la fase 2 veces, el folio asociado XXXX tiene datos temporales, tiene el mismo turno en trámite, está bloqueado por el usuario XXXX y por el mismo turno."
+},
+{
+"TIPO": "No se pudieron hacer definitivos los folios: Fallo en el servicio para hacer definitivos los datos temporales: ORA-00001 (SIR_NE_ANOTACION_TMP) MATRÍCULA= xxxx",
+"CONTENIDO":"El (La) funcionario(a) XXXXX de la Orip XXXXX remite correo indicando que el turno XXXXX asociado a los folios XXXXX al intentar avanzar el turno presenta el siguiente mensaje “No se pudieron hacer definitivos los folios: Fallo en el servicio para hacer definitivos los datos temporales: ORA-00001 (SIR_NE_ANOTACION_TMP) MATRÍCULA= XXX”. Se adjunta imagen.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas, se evidencia que los turnos XXXX está en la fase de firma, el folio asociado XXXX no tiene anotación en temporal, tiene el mismo turno en trámite, el folio asociado XXXX tiene datos en temporal, tiene segregación en temporal XXXX, tiene el mismo turno en trámite, está bloqueado por el usuario XXXX y por el mismo turno."
 }
 ]
 

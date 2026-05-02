@@ -1,0 +1,142 @@
+/* PlantillasErrores.css */
+
+:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --input: #020617;
+  --border: #334155;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --primary: #38bdf8;
+}
+
+/* CONTENEDOR */
+.correo-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 1rem;
+  height: 98vh;
+  padding: 1rem;
+  background: var(--bg);
+  color: var(--text);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* SIDEBAR */
+.sidebar {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 12px;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: var(--primary);
+}
+
+/* BUSCADOR */
+.buscador {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--input);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+/* ITEMS */
+.item {
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.4rem;
+  background: var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: 0.2s;
+}
+
+.item:hover {
+  background: var(--primary);
+  color: #000;
+}
+
+.item.active {
+  background: var(--primary);
+  color: #000;
+  font-weight: bold;
+}
+
+/* SIN RESULTADOS */
+.sin-resultados {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+/* CONTENIDO */
+.contenido {
+  background: var(--card);
+  padding: 1.5rem;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITULO */
+.contenido h2 {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* TEXTAREA AUTO */
+textarea {
+  width: 100%;
+  max-width: 800px;
+
+  min-height: 120px;
+  max-height: 60vh;
+
+  overflow: hidden; /* 🔥 clave */
+  resize: none;
+
+  background: var(--input);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem;
+
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* BOTÓN */
+.contenido button {
+  margin-top: 1rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+
+  background: var(--primary);
+  color: #000;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.contenido button:hover {
+  transform: translateY(-2px);
+}

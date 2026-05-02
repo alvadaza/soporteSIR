@@ -1,7 +1,7 @@
 // src/views/PlantillasaErrores.tsx
 import { useState, useMemo, useRef, useEffect } from "react";
 import data from "../data/PlantillasErroreComunes.json";
-import "../style/PlantillasCA.css";
+import "../style/PlantillasCaErrores.css";
 
 interface Plantilla {
   TIPO: string;

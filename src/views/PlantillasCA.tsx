@@ -125,7 +125,7 @@ export default function PlantillasCA() {
           />
         </div>
 
-        <div style={{ display: "flex", gap: "1rem" }}>
+        <div className="botones">
           <button className="excel" onClick={exportarExcel}>
             Descargar Excel
           </button>
