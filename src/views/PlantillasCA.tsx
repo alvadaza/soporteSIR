@@ -12,7 +12,7 @@ interface Plantilla {
 export default function PlantillasCA() {
   const [tipo, setTipo] = useState<string>("");
   const [contenido, setContenido] = useState<string>("");
-  const [validaciones, setValidaciones] = useState<string>("");
+  const [validaciones] = useState<string>("");
   const [nombre, setNombre] = useState<string>("");
   const [ticket, setTicket] = useState<string>("");
 
