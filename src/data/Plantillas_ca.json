@@ -25,11 +25,12 @@
   },
   {
     "TIPO": "Creación de usuario SIR",
-    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX solicita la creación del usuario SIR para el funcionario XXXXX, se adjunta documentación.\n\nNombre: XXXXXXX\nDocumento: XXXXXXX"
+    "CONTENIDO": "La funcionaria XXXXX remite correo solicitando Creación  de usuario SIR para el funcionario según la documentación adjunta de:\n\nNombre: XXXXXXX\nDocumento: XXXXXXX"\nORIP: XXX\n\nSe adjunta documentación\nSe declara insubsistente:\nNombre: XXXX\nCedula:  XXXX\n\nSe solicita validar si el funcionario xxxx tiene usuario SIR por base de Datos y la funcionaria insubsistente tiene pendientes.
+
   },
   {
     "TIPO": "Traslado de usuario SIR",
-    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX solicita el traslado del usuario SIR XXXXX, se adjunta documentación.\n\nUsuario SIR: XXXXX\nORIP origen: XXXXX\nORIP destino: XXXXX"
+    "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXX solicita el traslado del usuario SIR del funcionario XXXXX CC XXXX, se adjunta documentación.\n\nUsuario SIR: XXXXX\nORIP origen: XXXXX\nORIP destino: XXXXX"
   },
   {
     "TIPO": "Traslado de firma SIR",
@@ -42,5 +43,14 @@
   {
     "TIPO": "Falla al ingresar a SIR (no inicia / no carga)",
     "CONTENIDO": "El funcionario XXXXXX de la ORIP XXXXXX indica que al ingresar a SIR no carga correctamente, no se puede visualizar turnos ni folios o no puede escribir dentro del aplicativo.\n\nSe toma el equipo XXX.XXX.XXX.XXX en acceso remoto con autorización del funcionario, se borra cache DNS, se borra cache y certificados de Java, se restablece navegador, se configura navegador EDGE.\n\nSe realizon pruebas de ingreso con el funcionario y se confirma la solución de la falla reportada."
-  }
+  },
+{
+"TIPO": "Traslado Usuario Remoto",
+    "CONTENIDO":"El funcionario XXXX solicitando el traslado de usuario SIR del funcionario XXXX  CC  XXX quien trabajara CALIFICADOR REMOTO según la documentación adjunta de:\n\nORIP ORIGEN: XXXX\nORIP DESTINO: XXXX.\n\n
+Se adjunta documentación"
+},
+{
+"TIPO": "Rol ADMINISTRADOR REGIONAL",
+    "CONTENIDO":"El funcionario XXXX de la Orip XXX remite correo solicitando asignar el rol de ADMINISTRADOR REGIONAL al usuario XXX.XXX Registrador Seccional de la ORIP XXX, según documentación adjunta de:"
+},
 ]

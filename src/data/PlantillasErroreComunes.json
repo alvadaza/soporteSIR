@@ -126,6 +126,10 @@
 {
 "TIPO": "No se pudieron hacer definitivos los folios: Fallo en el servicio para hacer definitivos los datos temporales: ORA-00001 (SIR_NE_ANOTACION_TMP) MATRÍCULA= xxxx",
 "CONTENIDO":"El (La) funcionario(a) XXXXX de la Orip XXXXX remite correo indicando que el turno XXXXX asociado a los folios XXXXX al intentar avanzar el turno presenta el siguiente mensaje “No se pudieron hacer definitivos los folios: Fallo en el servicio para hacer definitivos los datos temporales: ORA-00001 (SIR_NE_ANOTACION_TMP) MATRÍCULA= XXX”. Se adjunta imagen.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas, se evidencia que los turnos XXXX está en la fase de firma, el folio asociado XXXX no tiene anotación en temporal, tiene el mismo turno en trámite, el folio asociado XXXX tiene datos en temporal, tiene segregación en temporal XXXX, tiene el mismo turno en trámite, está bloqueado por el usuario XXXX y por el mismo turno."
+},
+{
+"TIPO": "Fallo  bloqueo de folio: no puede tomar el bloqueo de los folios puesto que no es el usuario destino, el usuario autorizado para tomar el bloqueo es: XXXXX",
+"CONTENIDO":"La funcionaria Maria Claudia Arraez Sanchez de la Orip Calarca remite correo indicando que el turno 2026-282-1-548 al intentar tomar el turno presenta el siguiente mensaje “Fallo  bloqueo de folio: no puede tomar el bloqueo de los folios puesto que no es el usuario destino, el usuario autorizado para tomar el bloqueo es: GUSTAVO.CORDOBA”. Se adjuntan imagen. \n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas se evidencia que el turno XXXX está en la fase calificación en la estación XXXX, ha pasado por la fase 3 veces."
 }
 ]
 
