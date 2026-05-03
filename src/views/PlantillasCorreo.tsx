@@ -11,6 +11,7 @@ interface Plantilla {
 export default function PlantillasCorreo() {
   const [tipo, setTipo] = useState<string>("");
   const [contenido, setContenido] = useState<string>("");
+  
 const textareaRef = useRef<HTMLTextAreaElement>(null);
   const tiposUnicos: string[] = [
     ...new Set((data as Plantilla[]).map((d) => d.TIPO)),
