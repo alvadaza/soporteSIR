@@ -25,7 +25,7 @@
   },
   {
     "TIPO": "Creación de usuario SIR",
-    "CONTENIDO": "La funcionaria XXXXX remite correo solicitando Creación  de usuario SIR para el funcionario según la documentación adjunta de:\n\nNombre: XXXXXXX\nDocumento: XXXXXXX"\nORIP: XXX\n\nSe adjunta documentación\nSe declara insubsistente:\nNombre: XXXX\nCedula:  XXXX\n\nSe solicita validar si el funcionario xxxx tiene usuario SIR por base de Datos y la funcionaria insubsistente tiene pendientes.
+    "CONTENIDO": "La funcionaria XXXXX remite correo solicitando Creación  de usuario SIR para el funcionario según la documentación adjunta de:\n\nNombre: XXXXXXX\nDocumento: XXXXXXX\nORIP: XXX\n\nSe adjunta documentación\nSe declara insubsistente:\nNombre: XXXX\nCedula:  XXXX\n\nSe solicita validar si el funcionario xxxx tiene usuario SIR por base de Datos y la funcionaria insubsistente tiene pendientes."
 
   },
   {
@@ -46,11 +46,10 @@
   },
 {
 "TIPO": "Traslado Usuario Remoto",
-    "CONTENIDO":"El funcionario XXXX solicitando el traslado de usuario SIR del funcionario XXXX  CC  XXX quien trabajara CALIFICADOR REMOTO según la documentación adjunta de:\n\nORIP ORIGEN: XXXX\nORIP DESTINO: XXXX.\n\n
-Se adjunta documentación"
+    "CONTENIDO":"El funcionario XXXX solicitando el traslado de usuario SIR del funcionario XXXX  CC  XXX quien trabajara CALIFICADOR REMOTO según la documentación adjunta de:\n\nORIP ORIGEN: XXXX\nORIP DESTINO: XXXX.\n\nSe adjunta documentación"
 },
 {
 "TIPO": "Rol ADMINISTRADOR REGIONAL",
     "CONTENIDO":"El funcionario XXXX de la Orip XXX remite correo solicitando asignar el rol de ADMINISTRADOR REGIONAL al usuario XXX.XXX Registrador Seccional de la ORIP XXX, según documentación adjunta de:"
-},
+}
 ]
