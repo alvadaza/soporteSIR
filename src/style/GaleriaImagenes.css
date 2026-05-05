@@ -90,3 +90,8 @@ h1 {
   border-color: var(--primary);
   box-shadow: 0 0 10px var(--primary);
 }
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
