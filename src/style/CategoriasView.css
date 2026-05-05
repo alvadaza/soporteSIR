@@ -16,13 +16,13 @@
 /* CONTENEDOR PRINCIPAL */
 .container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
   background: var(--bg);
   color: var(--text);
-  overflow: hidden;
-  padding: 1rem;
-  gap: 2rem;
+  overflow: auto;
+  gap: 1rem;
 }
 
 /* TITULOS */
@@ -34,7 +34,7 @@
 
 /* LEFT */
 .left {
-  width: 45%;
+  flex: 1; /* 🔥 adaptable */
   padding: 2rem;
   transition: all 0.6s ease;
   display: flex;
@@ -46,17 +46,17 @@
   opacity: 0;
 }
 
-/* GRID DE CARDS 🔥 */
+/* GRID DE CARDS */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.5rem;
 }
 
 /* CARD */
 .card {
   background: var(--card);
-  padding: 0.5rem;
+  padding: 0.8rem;
   border-radius: 14px;
   border-left: 4px solid;
   cursor: pointer;
@@ -87,29 +87,38 @@
 .card-header p {
   margin: 0.8rem 0;
   color: var(--muted);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* RIGHT */
 .right {
-  width: 55%;
+  flex: 1.2;
   position: relative;
   transition: all 0.6s ease;
+  margin-top: 2rem;
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .right.active {
-  width: 100%;
+  position: sticky;
+  top: 0;
+  height: fit-content;
 }
 
+/* BOTON BACK */
 .back {
   max-height: 50px;
-  margin-left: -15rem;
+  margin-bottom: 1rem;
+  margin-left: -5rem;
+  margin-right: 0;
 }
 
 /* HERO */
 .hero {
   width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,18 +128,20 @@
 }
 
 .hero img {
-  width: 220px; /* 🔥 tamaño fijo mejor que % */
+  width: 220px;
+  max-width: 100%;
   border-radius: 20px;
 }
 
 .hero h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   max-width: 500px;
 }
 
 /* DETAIL */
 .detail {
   width: 100%;
+  max-width: 600px;
   padding: 2rem;
   animation: fadeIn 0.4s ease;
 }
@@ -163,14 +174,77 @@
   }
 }
 
-/* 🔥 AJUSTE PARA PANTALLAS GRANDES (IMPORTANTE) */
+/* ========================= */
+/* PORTÁTILES (CLAVE) */
+/* ========================= */
+@media (max-width: 1366px) {
+  .container {
+    flex-direction: column; /* 🔥 pasa a vertical */
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero img {
+    width: 180px;
+  }
+}
+
+/* ========================= */
+/* TABLETS */
+/* ========================= */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .container h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* ========================= */
+/*  MÓVILES */
+/* ========================= */
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hero img {
+    width: 140px;
+  }
+
+  .hero h1 {
+    font-size: 1.4rem;
+  }
+
+  .detail {
+    padding: 1rem;
+  }
+}
+
+/* ========================= */
+/* PANTALLAS GRANDES */
+/* ========================= */
 @media (min-width: 1400px) {
   .container {
-    max-width: 100vw;
+    max-width: 1400px;
     margin: 0 auto;
   }
 
   .hero h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 }

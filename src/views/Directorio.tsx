@@ -5,24 +5,33 @@ import "../style/Directorio.css";
 
 export default function Directorio() {
   const [registros, setRegistros] = useState<DirectorioItem[]>([]);
-  const [ciudadSeleccionada, setCiudadSeleccionada] = useState<string>("");
+  const [ciudadSeleccionada, setCiudadSeleccionada] = useState("");
+  const [busqueda, setBusqueda] = useState("");
 
   useEffect(() => {
-    const jsonData: DirectorioItem[] = data;
-    setRegistros(jsonData);
+    setRegistros(data);
   }, []);
 
-  const ciudades = [...new Set(registros.map(item => item.CIUDAD))].sort();
+  const ciudades = [...new Set(registros.map(i => i.CIUDAD))].sort();
 
-  const filtrados = ciudadSeleccionada
-    ? registros.filter(item => item.CIUDAD === ciudadSeleccionada)
-    : registros;
+  const filtrados = registros.filter(item => {
+    const cumpleCiudad = ciudadSeleccionada
+      ? item.CIUDAD === ciudadSeleccionada
+      : true;
+
+    const texto = `${item.FUNCIONARIO} ${item.CARGO} ${item.TELEFONO} ${item.CIUDAD}`.toLowerCase();
+
+    const cumpleBusqueda = texto.includes(busqueda.toLowerCase());
+
+    return cumpleCiudad && cumpleBusqueda;
+  });
 
   return (
     <div className="directorio-container">
       <h1 className="title">Directorio</h1>
 
-      <div className="filtro">
+      {/* 🔥 FILTROS */}
+      <div className="filtros-container">
         <select
           value={ciudadSeleccionada}
           onChange={(e) => setCiudadSeleccionada(e.target.value)}
@@ -34,20 +43,47 @@ export default function Directorio() {
             </option>
           ))}
         </select>
+
+        {/* 🔥 BUSCADOR */}
+        <input
+          type="text"
+          placeholder="Buscar funcionario, cargo, teléfono..."
+          value={busqueda}
+          onChange={(e) => setBusqueda(e.target.value)}
+        />
       </div>
 
-      <div className="lista">
-        {filtrados.map((item, index) => (
-          <div key={`${item.CIUDAD}-${item.FUNCIONARIO}-${index}`} className="card">
-            <h3>{item.FUNCIONARIO}</h3>
-            <p><strong>Ciudad:</strong> {item.CIUDAD}</p>
-            <p>
-              <strong>Cargo:</strong>{" "}
-              {item.CARGO && item.CARGO !== "N/A" ? item.CARGO : "Sin cargo"}
-            </p>
-            <p><strong>Tel:</strong> {item.TELEFONO}</p>
-          </div>
-        ))}
+      {/* 🔥 TABLA */}
+      <div className="tabla-container">
+        <table className="tabla">
+          <thead>
+            <tr>
+              <th>Funcionario</th>
+              <th>Ciudad</th>
+              <th>Cargo</th>
+              <th>Teléfono</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {filtrados.map((item, index) => (
+              <tr key={index}>
+                <td>{item.FUNCIONARIO}</td>
+                <td>{item.CIUDAD}</td>
+                <td>
+                  {item.CARGO && item.CARGO !== "N/A"
+                    ? item.CARGO
+                    : "Sin cargo"}
+                </td>
+                <td>{item.TELEFONO}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        {filtrados.length === 0 && (
+          <p className="sin-resultados">No hay resultados</p>
+        )}
       </div>
     </div>
   );

@@ -9,13 +9,13 @@
 }
 
 .galeria-container {
-  padding: 2rem;
+  width: 100%;
+  padding: 0.5rem;
   background: var(--bg);
   min-height: 100vh;
   color: var(--text);
-
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 h1 {
@@ -40,13 +40,15 @@ h1 {
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
 }
 
 /* CARD */
 .card {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
   background: var(--card);
   border-radius: 12px;
   padding: 1rem;

@@ -33,7 +33,7 @@
 },
 {
 "TIPO": "Fallo en el servicio para hacer definitivos los datos temporales",
-"CONTENIDO":"El (La) funcionario(a) XXX de la Orip XXX remite correo indicando que los turnos XXX asociado al folio XXX al intentar avanzar el turno presenta el siguiente mensaje “Fallo en el servicio para hacer definitivos los datos temporales”. Se adjuntan imagen.Se procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas, se evidencia que los turnos XXX que está en fase revisar y aprobar en la estación XXXX, el folio asociado XXXX, tiene anotaciones en temporales, tiene el mismo turno en trámite, está bloqueado por el usuario XXXX y por el mismo turno, se valida que las salvedades están en definitivo.está cerrado por el acto por división y englobe"
+"CONTENIDO":"El (La) funcionario(a) XXX de la Orip XXX remite correo indicando que los turnos XXX asociado al folio XXX al intentar avanzar el turno presenta el siguiente mensaje “Fallo en el servicio para hacer definitivos los datos temporales”. Se adjuntan imagen.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se valida por pantallas administrativas, se evidencia que los turnos XXX que está en fase revisar y aprobar en la estación XXXX, el folio asociado XXXX, tiene anotaciones en temporales, tiene el mismo turno en trámite, está bloqueado por el usuario XXXX y por el mismo turno, se valida que las salvedades están en definitivo.está cerrado por el acto por división y englobe"
 },
 {
 "TIPO": "El usuario no es dueño del bloqueo de la matrícula",
