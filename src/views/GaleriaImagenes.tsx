@@ -6,6 +6,9 @@ const imagenes = [
   "Imagen2.png",
   "Imagen3.png",
   "Imagen4.png",
+  "Imagen5.png",
+  "Imagen6.png",
+  "Imagen7.png",
 ];
 
 export default function GaleriaImagenes() {

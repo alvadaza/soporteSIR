@@ -12,7 +12,6 @@ interface Plantilla {
 export default function PlantillasCA() {
   const [tipo, setTipo] = useState<string>("");
   const [contenido, setContenido] = useState<string>("");
-  const [validaciones] = useState<string>("");
   const [nombre, setNombre] = useState<string>("");
   const [ticket, setTicket] = useState<string>("");
 
@@ -32,7 +31,7 @@ export default function PlantillasCA() {
 
   const copiar = () => {
     navigator.clipboard.writeText(
-      `${contenido}\n\nVALIDACIONES:\n${validaciones}`
+      `${contenido}`
     );
   };
 
@@ -43,7 +42,6 @@ export default function PlantillasCA() {
         Ticket: ticket,
         Tipo: tipo,
         Contenido: contenido,
-        Validaciones: validaciones,
       },
     ];
 

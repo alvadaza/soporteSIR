@@ -77,5 +77,21 @@
 {
  "TIPO": "19- Plantilla para responder traslado/cargue de firma y asignación ROL Registrador",
     "CONTENIDO":"Le informamos que su solicitud registrada con el número de Ticket XXXX fue solucionada exitosamente.\n\nLa solución fue: Se realiza el traslado del usuario, firma y asignación del Rol Registrador al usuario xxx.xxx\n\nRecuerde que para la activación de firma se debe realizar el siguiente proceso:\n\n[IMEGEN]"
+},
+{
+   "TIPO": "20- correo respuesta segregacion",
+   "CONTENIDO": "Cordial Saludo,\n\nDe acuerdo con lo indicado en el correo y la validación realizada de manera remota con el funcionario, se identificó que se está intentando realizar un proceso de segregación sobre el folio xxx, el cual registra un área de xx hectáreas y xxx metros cuadrados.\n\nNo obstante, al momento de efectuar la segregación, se está ingresando un área de xx hectáreas, por lo que el proceso no es viable, teniendo en cuenta que el área a segregar supera el tamaño del área matriz registrada.\n\nEn este orden de ideas, se sugiere validar si los valores ingresados para la segregación son correctos o, en su defecto, si el tamaño del área matriz corresponde al registrado actualmente. De no ser así, será necesario ejecutar un turno de corrección con el fin de ajustar el área matriz, conforme a lo que jurídicamente determinen procedente."
+},
+{
+    "TIPO": "21- Correo primer contacto",
+    "CONTENIDO": "Cordial Saludo,\n\nLe informamos que su solicitud ha sido recibida exitosamente. En estemomento, el caso se encuentra en etapa de validación y diagnóstico técnico, proceso que se realiza según la complejidad y viabilidad del requerimiento.\n\nLe mantendremos informado sobre cualquier avance o si requerimos información adicional para apoyar la resolución."
+},
+{
+    "TIPO": "22- Asignación de Recibos",
+    "CONTENIDO": "Cordial Saludo,\n\nLa novedad reportada se presenta porque el usuario no cuenta con recibos asignados.\n\nLe informamos que la asignación de recibos se realiza directamente desde la ORIP, por el administrador regional, siguiendo los pasos descritos a continuación:\n\nRuta de acceso:\n\n1. Pantallas administrativas.\n2. Tarifas, pagos y recibos.\n3. Administración derecibos en estaciones.\n\nEn la pantalla que se despliega, deberá seleccionar el círculo correspondiente, elegir la estación y completar los campos restantes según corresponda al consecutivo correcto.\n\n [imagen 6]\n\nLos campos deben diligenciarse de la siguiente manera:\n\n1. Número inicial: corresponde al número siguiente al último consecutivo utilizado “número final” (último número del consecutivo anterior + 1).\n2. Número final: corresponde al total de recibos que se van a asignar, contado a partir del número inicial.\n3. Número actual: debe ser el mismo que el número inicial.○\n\nSolicitamos amablemente confirmar si logró realizar el proceso. En caso de no ser posible, por favor indicar un número de contacto celular para brindar apoyo."
+},
+{
+  "TIPO": "23- Activación de firma digital",
+  "CONTENIDO": "Cordial Saludo,\n\nPara realizar el proceso de activación de la firma, el funcionario que tenga asignado el rol “Administrador Regional” debe ingresar a Pantallas Administrativas, en la opción Administración de Firmas del Registrador, y seguir los siguientes pasos:\n\n 1. Presionar el botón “Buscar”, donde se visualizarán las firmas registradas en la ORIP.\n\n[imagen 5]\n\n  2. Seleccionar la firma correspondiente al funcionario y hacer clic en “Aceptar”.\n\n[imagen 7]\n\n 3. Diligenciar la información requerida para dejar la firma en estado activa.\n\nEn caso de requerir asistencia para realizar la activación, por favor remitir el número de contacto del funcionario que tenga asignado el rol de Administrador Regional."
 }
 ]

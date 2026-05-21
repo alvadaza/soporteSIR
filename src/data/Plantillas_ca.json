@@ -51,5 +51,9 @@
 {
 "TIPO": "Rol ADMINISTRADOR REGIONAL",
     "CONTENIDO":"El funcionario XXXX de la Orip XXX remite correo solicitando asignar el rol de ADMINISTRADOR REGIONAL al usuario XXX.XXX Registrador Seccional de la ORIP XXX, según documentación adjunta de:"
+},
+{
+"TIPO": "ACTIVACIÓN Y SINCRONIZACIÓN",
+    "CONTENIDO":"La funcionaria XXx de la ORIP Bogotá sur remite correo indicando a ACTIVACIÓN Y SINCRONIZACIÓN del folio de matrícula inmobiliaria xxx, el cual se encuentran trasladado y ubicado en Bogotá Zona Sur.(adjunto imagen)\n\nVALIDACIONES:\n\nSe valida por pantallas administrativas y se evidencia que el folio xxx se encuentra ESTADO DEL FOLIO  TRASLADADO SOACHA-051 con xx anotaciones en estado TRASLADADA, no tiene turnos en tramite y no tiene datos en temporal.\n\nel folio xxx se encuentra ESTADO DEL FOLIO  TRASLADADO BOGOTA ZONA SUR-50S  con RESOLUCION xxx, el Circulo Origen:  BOGOTA ZONA SUR Numero Matricula Origen:  xxx tiene xx anotaciones Estado TRASLADADA no tiene datos en temporal y no tiene turnos en tramite."
 }
 ]
