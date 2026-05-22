@@ -5,11 +5,11 @@ import PlantillasCA from "./PlantillasCA";
 import PlantillasCorreo from "./PlantillasCorreo";
 import Directorio from "./Directorio";
 import PlantillasCaErrores from "./PlantillasCaErrores";
-import GaleriaImagenes from "./GaleriaImagenes";
-import "../style/CategoriasView.css";
+{/*import GaleriaImagenes from "./GaleriaImagenes";*/}
+  import "../style/CategoriasView.css";
 
 
-type Vista = "inicio" | "plantillas" | "plantillascorreo"  | "plantillascaerrores" | "directorio" | "imagenes";
+type Vista = "inicio" | "plantillas" | "plantillascorreo"  | "plantillascaerrores" | "directorio" ;
 
 export default function CategoriasView() {
   const [vista, setVista] = useState<Vista>("inicio");
@@ -28,9 +28,9 @@ export default function CategoriasView() {
     if (cat.id === "directorio") {
       setVista("directorio");
     }
-    if (cat.id === "imagenes") {
+   {/* if (cat.id === "imagenes") {
       setVista("imagenes");
-    }
+    }*/}
   };
 
   return (
@@ -130,7 +130,7 @@ export default function CategoriasView() {
           </>
         )}
 
-        {vista === "imagenes" && (
+      {/*  {vista === "imagenes" && (
           <>
             <button
               className="back"
@@ -141,7 +141,7 @@ export default function CategoriasView() {
 
             <GaleriaImagenes />
           </>
-        )}
+        )}*/}
       </div>
     </div>
   );

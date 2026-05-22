@@ -43,13 +43,13 @@ export const categorias: Categoria[] = [
     color: '#10b981',
     count: 0,
   },
-  {
-    id: 'imagenes',
-    nombre: 'Imágenes',
-    descripcion: 'Colección de imágenes para uso en plantillas',
-    icono: 'Image',
-    color: '#8b5cf6',
-    count: 0,
-  },
+ // {
+ //   id: 'imagenes',
+ //   nombre: 'Imágenes',
+ //   descripcion: 'Colección de imágenes para uso en plantillas',
+ //   icono: 'Image',
+ //   color: '#8b5cf6',
+  //  count: 0,
+ // },
   
 ];

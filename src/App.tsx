@@ -5,7 +5,7 @@ import PlantillasCA from "./views/PlantillasCA";
 import PlantillasCorreo from "./views/PlantillasCorreo";
 import Directorio from "./views/Directorio";
 import PlantillasCaErrores from "./views/PlantillasCaErrores";
-import GaleriaImagenes from "./views/GaleriaImagenes";
+{/*import GaleriaImagenes from "./views/GaleriaImagenes";*/}
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
         <Route path="/plantillascorreo" element={<PlantillasCorreo />} />
         <Route path="/directorio" element={<Directorio />} />
         <Route path="/plantillascaerrores" element={<PlantillasCaErrores />} />
-        <Route path="/imagenes" element={<GaleriaImagenes />} />
+      
+     {/* <Route path="/imagenes" element={<GaleriaImagenes />} />*/}
       </Routes>
     </BrowserRouter>
   );
