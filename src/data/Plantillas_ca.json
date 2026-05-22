@@ -55,5 +55,13 @@
 {
 "TIPO": "ACTIVACIÓN Y SINCRONIZACIÓN",
     "CONTENIDO":"La funcionaria XXx de la ORIP Bogotá sur remite correo indicando a ACTIVACIÓN Y SINCRONIZACIÓN del folio de matrícula inmobiliaria xxx, el cual se encuentran trasladado y ubicado en Bogotá Zona Sur.(adjunto imagen)\n\nVALIDACIONES:\n\nSe valida por pantallas administrativas y se evidencia que el folio xxx se encuentra ESTADO DEL FOLIO  TRASLADADO SOACHA-051 con xx anotaciones en estado TRASLADADA, no tiene turnos en tramite y no tiene datos en temporal.\n\nel folio xxx se encuentra ESTADO DEL FOLIO  TRASLADADO BOGOTA ZONA SUR-50S  con RESOLUCION xxx, el Circulo Origen:  BOGOTA ZONA SUR Numero Matricula Origen:  xxx tiene xx anotaciones Estado TRASLADADA no tiene datos en temporal y no tiene turnos en tramite."
+},
+{
+"TIPO": "Anular turno sin fase ni estación",
+"CONTENIDO":"El funcionario XXXX de la Orip XXX remite correo indicando que al tratar de anular el turno XXX al intentar anular el turno se evidencia que está sin fase ni estación.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se procede a cambiar estado para escalamiento al área especializada.\n\nSe valida por pantallas administrativas y se evidencia que el turno XXX se encuentra sin fase ni estación, no tiene folios asociados, no tiene datos en temporal y no tiene turnos en tramite."
+},
+{
+  "TIPO": "Normalizar Turno",
+  "CONTENIDO": "El (La) funcionario(a) XXXX de la Orip XXXX remite correo indicando que el turno XXX al intentar tomar el turno se encuentrasin fase ni estación. Solicita normalizar el turno.\n\nVALIDACIONES\n\nSe procede a realizar las validaciones correspondientes. Se procede a cambiar estado para escalamiento al área especializada.\n\nSe valida por pantallas administrativas y se evidencia que el turno XXX se encuentra sin fase ni estacion tiene matricula asociada 248-7280 el cual no tiene datos en temporal y tiene el mismo turno en tramite. favor normalizar el turno dejandolo en:\n\nUSUARIO: XXXX\nFASE: xxx\nESTACIÓN: xxx"
 }
 ]
