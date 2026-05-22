@@ -43,12 +43,25 @@
   },
   {
     "TIPO": "11- Entrega de creación de usuario",
-    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud para “creación usuario SIR” registrada con el número de servicio XXXX fue solucionada exitosamente.\nLas credenciales de acceso son:\n *  Usuario: “Usuario”\nPueden realizar el cambio de contraseña en el siguiente link:\n https://accesos.supernotariado.gov.co/sigma/app/\nIngresar usuario y contraseña del correo:\n[IMAGEN 1]\n\nAl lado izquierdo presione las 3 líneas y seleccione “Cambiar Mi Contraseña”, luego de clic en el botón “Cambiar Mi Contraseña”\n[IMAGEN 2]\n\nA continuación se desplegará un formulario en donde podrá realizar el cambio de su contraseña, a medida que esté digitando se podrá ver que esta cumple con los niveles de seguridad requeridos. \n[IMAGEN 3]\n\nNota: Esta nueva contraseña aplica para SIR, SISG y CORREO."
-
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que su solicitud para “creación usuario SIR” registrada con el número de servicio XXXX fue solucionada exitosamente.\nLas credenciales de acceso son:\n *  Usuario: “Usuario”\nPueden realizar el cambio de contraseña en el siguiente link:\n https://accesos.supernotariado.gov.co/sigma/app/\nIngresar usuario y contraseña del correo:\n\n[IMAGEN 1]\n\nAl lado izquierdo presione las 3 líneas y seleccione “Cambiar Mi Contraseña”, luego de clic en el botón “Cambiar Mi Contraseña”\n\n[IMAGEN 2]\n\nA continuación se desplegará un formulario en donde podrá realizar el cambio de su contraseña, a medida que esté digitando se podrá ver que esta cumple con los niveles de seguridad requeridos. \n\n[IMAGEN 3]\n\nNota: Esta nueva contraseña aplica para SIR, SISG y CORREO.",
+"IMAGENES": [
+    { 
+      "placeholder": "[IMAGEN 1]", 
+      "nombre": "Imagen1.png" 
+    },
+    { 
+      "placeholder": "[IMAGEN 2]", 
+      "nombre": "Imagen2.png" 
+    },
+    { 
+      "placeholder": "[IMAGEN 3]", 
+      "nombre": "Imagen3.png" 
+    }
+  ]
   },
   {
     "TIPO": "12- Traslado de usuario",
-    "CONTENIDO": "Cordial saludo:\n\nLe informamos que para poder continuar con el requerimiento de traslado de usuario SIR solicitamos que por favor nos envíe la siguiente información:\n\n§ Oficio solicitando el traslado del usuario, firmado por el registrador de la oficina en el cual se especifique la ORIP de origen y la ORIP de destino. (En caso de ser Remoto debe estar especificado en el oficio o correo solicitud).\n§ Formato de creación de usuarios debidamente diligenciado y firmado por el registrador. Ver adjunto.\n§ Resolución de nombramiento del registrador o funcionario, en el cual se debe observar claramente en que ORIP está designado el funcionario. (Si NO cuentan con Resolución pueden remitir Planilla de Viáticos)\n\nEs de aclarar que estos documentos son indispensables para cualquier trámite de traslado y deben ser adjuntados por todo funcionario de la SNR, además de estar claramente expuesto el requerimiento y los datos de las ORIP involucradas en el proceso deseado.\n\nPor otro lado, es necesario que el usuario “nombre Usuario” no tenga turnos pendientes, no cuente con configuración de recibos o estaciones compartidas, no debe tener roles asignados (ya que el registrador los elimina)."
+    "CONTENIDO": "Cordial saludo:\n\nLe informamos que para poder continuar con el requerimiento de traslado de usuario SIR solicitamos que por favor nos envíe la siguiente información:\n\n*  Oficio solicitando el traslado del usuario, firmado por el registrador de la oficina en el cual se especifique la ORIP de origen y la ORIP de destino. (En caso de ser Remoto debe estar especificado en el oficio o correo solicitud).\n* Formato de creación de usuarios debidamente diligenciado y firmado por el registrador. Ver adjunto.\n* Resolución de nombramiento del registrador o funcionario, en el cual se debe observar claramente en que ORIP está designado el funcionario. (Si NO cuentan con Resolución pueden remitir Planilla de Viáticos)\n\nEs de aclarar que estos documentos son indispensables para cualquier trámite de traslado y deben ser adjuntados por todo funcionario de la SNR, además de estar claramente expuesto el requerimiento y los datos de las ORIP involucradas en el proceso deseado.\n\nPor otro lado, es necesario que el usuario “nombre Usuario” no tenga turnos pendientes, no cuente con configuración de recibos o estaciones compartidas, no debe tener roles asignados (ya que el registrador los elimina)."
   },
 {
 "TIPO": "13- Estado de usuario SIR a trasladar",
@@ -56,7 +69,13 @@
 },
   {
     "TIPO": "14- Caida del sistema",
-    "CONTENIDO": "Le informamos que se han realizado las validaciones correspondientes y se ha solucionado la novedad de acceso al aplicativo SIR. Le solicitamos amablemente cerrar el navegador e intentar ingresar nuevamente.\n\nNota: Si al intentar acceder se muestra el siguiente mensaje, por favor seguir unas cortas indicaciones que encontrará en el manual adjunto.\n\n[IMAGEN 4]\n\nSi el inconveniente persiste, por favor informarnos para brindarle asistencia.\n\n<se adjunta manual>"
+    "CONTENIDO": "Le informamos que se han realizado las validaciones correspondientes y se ha solucionado la novedad de acceso al aplicativo SIR. Le solicitamos amablemente cerrar el navegador e intentar ingresar nuevamente.\n\nNota: Si al intentar acceder se muestra el siguiente mensaje, por favor seguir unas cortas indicaciones que encontrará en el manual adjunto.\n\n[IMAGEN 4]\n\nSi el inconveniente persiste, por favor informarnos para brindarle asistencia.\n\n<se adjunta manual>",
+  "IMAGENES": [
+    { 
+      "placeholder": "[IMAGEN 4]", 
+      "nombre": "Imagen4.png" 
+    }
+  ]
   },
 {
  "TIPO": "15- Escalamiento a N3 por problemas de CA",
@@ -68,7 +87,7 @@
   },
 {
 "TIPO": "17- Solicitud de capacitación",
- "CONTENIDO": "En atención a su comunicación le informamos que se re-direcciona su solicitud a Dirección Técnica Del Registro, para que le puedan colaborar u orientar con el proceso que desea realizar, quedamos atentos a si presenta algún error o falla con el aplicativo\n\n---------------------------------------------\n\nNota: Este correo debe dirigirse al usuario y a las siguientes personas:\n\n---------------------------------------------\n\n § sandra.palacios@supernotariado.gov.co\n\n---------------------------------------------"
+ "CONTENIDO": "En atención a su comunicación le informamos que se re-direcciona su solicitud a Dirección Técnica Del Registro, para que le puedan colaborar u orientar con el proceso que desea realizar, quedamos atentos a si presenta algún error o falla con el aplicativo\n\n---------------------------------------------\n\nNota: Este correo debe dirigirse al usuario y a las siguientes personas:\n\n---------------------------------------------\n\n * sandra.palacios@supernotariado.gov.co\n\n---------------------------------------------"
 },
   {
     "TIPO": "18- Plantilla para dar solución en primer contacto",
@@ -76,8 +95,14 @@
   },
 {
  "TIPO": "19- Plantilla para responder traslado/cargue de firma y asignación ROL Registrador",
-    "CONTENIDO":"Le informamos que su solicitud registrada con el número de Ticket XXXX fue solucionada exitosamente.\n\nLa solución fue: Se realiza el traslado del usuario, firma y asignación del Rol Registrador al usuario xxx.xxx\n\nRecuerde que para la activación de firma se debe realizar el siguiente proceso:\n\n[IMEGEN]"
-},
+    "CONTENIDO":"Le informamos que su solicitud registrada con el número de Ticket XXXX fue solucionada exitosamente.\n\nLa solución fue: Se realiza el traslado del usuario, firma y asignación del Rol Registrador al usuario xxx.xxx\n\nRecuerde que para la activación de firma se debe realizar el siguiente proceso:\n\n[IMAGEN 5]",
+ "IMAGENES": [
+    { 
+      "placeholder": "[IMAGEN 5]", 
+      "nombre": "Imagen5.png" 
+    }
+  ]
+  },
 {
    "TIPO": "20- correo respuesta segregacion",
    "CONTENIDO": "Cordial Saludo,\n\nDe acuerdo con lo indicado en el correo y la validación realizada de manera remota con el funcionario, se identificó que se está intentando realizar un proceso de segregación sobre el folio xxx, el cual registra un área de xx hectáreas y xxx metros cuadrados.\n\nNo obstante, al momento de efectuar la segregación, se está ingresando un área de xx hectáreas, por lo que el proceso no es viable, teniendo en cuenta que el área a segregar supera el tamaño del área matriz registrada.\n\nEn este orden de ideas, se sugiere validar si los valores ingresados para la segregación son correctos o, en su defecto, si el tamaño del área matriz corresponde al registrado actualmente. De no ser así, será necesario ejecutar un turno de corrección con el fin de ajustar el área matriz, conforme a lo que jurídicamente determinen procedente."
@@ -88,10 +113,26 @@
 },
 {
     "TIPO": "22- Asignación de Recibos",
-    "CONTENIDO": "Cordial Saludo,\n\nLa novedad reportada se presenta porque el usuario no cuenta con recibos asignados.\n\nLe informamos que la asignación de recibos se realiza directamente desde la ORIP, por el administrador regional, siguiendo los pasos descritos a continuación:\n\nRuta de acceso:\n\n1. Pantallas administrativas.\n2. Tarifas, pagos y recibos.\n3. Administración derecibos en estaciones.\n\nEn la pantalla que se despliega, deberá seleccionar el círculo correspondiente, elegir la estación y completar los campos restantes según corresponda al consecutivo correcto.\n\n [imagen 6]\n\nLos campos deben diligenciarse de la siguiente manera:\n\n1. Número inicial: corresponde al número siguiente al último consecutivo utilizado “número final” (último número del consecutivo anterior + 1).\n2. Número final: corresponde al total de recibos que se van a asignar, contado a partir del número inicial.\n3. Número actual: debe ser el mismo que el número inicial.○\n\nSolicitamos amablemente confirmar si logró realizar el proceso. En caso de no ser posible, por favor indicar un número de contacto celular para brindar apoyo."
+    "CONTENIDO": "Cordial Saludo,\n\nLa novedad reportada se presenta porque el usuario no cuenta con recibos asignados.\n\nLe informamos que la asignación de recibos se realiza directamente desde la ORIP, por el administrador regional, siguiendo los pasos descritos a continuación:\n\nRuta de acceso:\n\n1. Pantallas administrativas.\n2. Tarifas, pagos y recibos.\n3. Administración derecibos en estaciones.\n\nEn la pantalla que se despliega, deberá seleccionar el círculo correspondiente, elegir la estación y completar los campos restantes según corresponda al consecutivo correcto.\n\n [IMAGEN 6]\n\nLos campos deben diligenciarse de la siguiente manera:\n\n1. Número inicial: corresponde al número siguiente al último consecutivo utilizado “número final” (último número del consecutivo anterior + 1).\n2. Número final: corresponde al total de recibos que se van a asignar, contado a partir del número inicial.\n3. Número actual: debe ser el mismo que el número inicial.○\n\nSolicitamos amablemente confirmar si logró realizar el proceso. En caso de no ser posible, por favor indicar un número de contacto celular para brindar apoyo.",
+    "IMAGENES": [
+    { 
+      "placeholder": "[IMAGEN 6]", 
+      "nombre": "Imagen6.png" 
+    }
+  ]
 },
 {
   "TIPO": "23- Activación de firma digital",
-  "CONTENIDO": "Cordial Saludo,\n\nPara realizar el proceso de activación de la firma, el funcionario que tenga asignado el rol “Administrador Regional” debe ingresar a Pantallas Administrativas, en la opción Administración de Firmas del Registrador, y seguir los siguientes pasos:\n\n 1. Presionar el botón “Buscar”, donde se visualizarán las firmas registradas en la ORIP.\n\n[imagen 5]\n\n  2. Seleccionar la firma correspondiente al funcionario y hacer clic en “Aceptar”.\n\n[imagen 7]\n\n 3. Diligenciar la información requerida para dejar la firma en estado activa.\n\nEn caso de requerir asistencia para realizar la activación, por favor remitir el número de contacto del funcionario que tenga asignado el rol de Administrador Regional."
+  "CONTENIDO": "Cordial Saludo,\n\nPara realizar el proceso de activación de la firma, el funcionario que tenga asignado el rol “Administrador Regional” debe ingresar a Pantallas Administrativas, en la opción Administración de Firmas del Registrador, y seguir los siguientes pasos:\n\n 1. Presionar el botón “Buscar”, donde se visualizarán las firmas registradas en la ORIP.\n\n[IMAGEN 5]\n\n  2. Seleccionar la firma correspondiente al funcionario y hacer clic en “Aceptar”.\n\n[IMAGEN 7]\n\n 3. Diligenciar la información requerida para dejar la firma en estado activa.\n\nEn caso de requerir asistencia para realizar la activación, por favor remitir el número de contacto del funcionario que tenga asignado el rol de Administrador Regional.",
+"IMAGENES": [
+    { 
+      "placeholder": "[IMAGEN 5]", 
+      "nombre": "Imagen5.png" 
+    },
+    { 
+      "placeholder": "[IMAGEN 7]", 
+      "nombre": "Imagen7.png" 
+    }
+  ]
 }
 ]

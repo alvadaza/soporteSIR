@@ -134,6 +134,22 @@ textarea {
 .contenido button:hover {
   transform: translateY(-2px);
 }
+.rich-preview {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.inline-image {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+}
 
 /* ========================= */
 /*  PORTÁTILES */
